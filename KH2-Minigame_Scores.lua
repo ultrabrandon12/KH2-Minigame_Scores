@@ -52,7 +52,7 @@ worldid = 0x717008
  event2id = 0x71700E
  event3id = 0x717010 
 
-	if ReadByte(Cntrl) == 0 then
+	if ReadByte(Cntrl) == 0 and ReadByte(worldid) == 0x09 then
 		WriteLong(Pooh, 0x0001869F)
 	end
 	
