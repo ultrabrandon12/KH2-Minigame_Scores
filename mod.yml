@@ -1,0 +1,8 @@
+title: "KH2-Minigame_Scores"
+author: "ultrabrandon12"
+description: "KH2-Minigame_Scores"
+assets:
+- name: scripts/KH2-Minigame_Scores.lua
+  method: copy
+  source:
+  - name: KH2-Minigame_Scores.lua
